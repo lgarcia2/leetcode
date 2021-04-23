@@ -1,2 +1,2 @@
-# leetcode
-Leetcode Solutions
+# LeetCode Solutions
+This repository contains some of my solutions to a select number of [LeetCode](https://leetcode.com/) problems. From time to time I like to run through some LeetCode questions to keep my skills sharp I also want to hone my Python skills since at the time of writing this (2021-04-23) I've only been _extensively_ using Python for a year now. 
