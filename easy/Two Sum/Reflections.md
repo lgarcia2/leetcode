@@ -1,4 +1,7 @@
 
+# 'Two Numbers' - Problem Reflections
+
+### 2021-04-23
 This was a quick and easy problem to solve. It was very straightforward and when thinking of a solution, I put pen to paper, so to speak, and the code flowed freely.
 
 The only things that gave me any sort of trouble on this was Python syntax. I'm still coming from a c# background so some of the differences trip me up a little bit. Here are the syntax items that tripped me up.
