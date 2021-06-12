@@ -34,6 +34,12 @@ Output: 1.00000
 Input: nums1 = [2], nums2 = []
 Output: 2.00000
 
+
+## Another Example from testing my soltuion
+
+Input: nums1 = [1,3], nums2 = [2,7]
+Output = 2.50000
+
  
 
 ## Constraints:
