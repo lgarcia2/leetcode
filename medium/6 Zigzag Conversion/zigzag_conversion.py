@@ -6,7 +6,6 @@ class Solution:
         currentZagRow = numRows - 2
         for i in range(0, len(s)):
             if currentZigRow < numRows:
-                print(f"zig {currentZigRow}")
                 # down (zig)
                 if len(rowStrs) > currentZigRow:
                     rowStrs[currentZigRow] = rowStrs[currentZigRow] + s[i]
@@ -14,12 +13,10 @@ class Solution:
                     rowStrs.append(s[currentZigRow])
                 currentZigRow = currentZigRow + 1
             elif currentZagRow > 1:
-                print(f"zag {currentZagRow}")
                 # diagonal (zag)
                 rowStrs[currentZagRow] = rowStrs[currentZagRow] + s[i]
                 currentZagRow = currentZagRow - 1
             else:
-                print(f"finish {currentZigRow}:{currentZagRow}")
                 # finish last zag, then restart with zig
                 rowStrs[currentZagRow] = rowStrs[currentZagRow] + s[i]
                 currentZigRow = 0
